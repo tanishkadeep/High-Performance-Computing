@@ -36,6 +36,11 @@ int main(int argc,char *argv[])
 
 
 /*
+mpicc -o program program.c
+mpirun -np 4 ./program
+*/
+
+/*
 tanishka@Tanishka:~$ mpirun -np 4 ./program
 Tanishka
 Tanishka
