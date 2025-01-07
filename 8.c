@@ -48,3 +48,7 @@ int main() {
 !nvcc -o vector_add_broadcast vector_add_broadcast.cu                                                                                              # Step 4: Run the compiled program
 !./vector_add_broadcast
 */
+
+/*
+Result: 5 6 7 8 9 10 11 12 13 14 
+*/

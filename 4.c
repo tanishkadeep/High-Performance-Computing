@@ -18,3 +18,11 @@ int main()
     }
     return 0;
 }
+
+/*
+Task 0 is being processed by thread 4
+Task 1 is being processed by thread 4
+Task 2 is being processed by thread 4
+Task 3 is being processed by thread 1
+Task 4 is being processed by thread 16
+*/

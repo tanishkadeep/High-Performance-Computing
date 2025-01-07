@@ -34,3 +34,17 @@ int main(int argc,char *argv[])
   	MPI_Finalize();
 }
 
+
+/*
+tanishka@Tanishka:~$ mpirun -np 4 ./program
+Tanishka
+Tanishka
+Tanishka
+Tanishka
+
+Hello India in process with rank 3 from Process with rank 0
+
+Hello India in process with rank 1 from Process with rank 0
+
+Hello India in process with rank 2 from Process with rank 0
+*/
