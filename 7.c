@@ -6,7 +6,7 @@
 
 int main(int argc,char *argv[])
 {
-	int  MyRank,Numprocs, Destination, iproc;
+	int  MyRank,Numprocs, Destination;
 	int  tag = 0;
 	int  Root = 0, temp = 1;
 	char Message[BUFFER_SIZE];
