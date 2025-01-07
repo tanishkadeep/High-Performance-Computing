@@ -4,6 +4,7 @@
 int main()
 {
     int n = 16;
+    omp_set_num_threads(4);
 
     // Demonstrating Static Scheduling
     printf("\nDemonstrating Static Scheduling (Chunk Size: 4)\n");
